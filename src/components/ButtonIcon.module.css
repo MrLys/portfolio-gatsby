@@ -1,0 +1,7 @@
+.iconCn {
+    padding: 12px 0px 12px 0;
+
+}
+.iconCn svg:hover {
+    fill: #00adb5;
+}

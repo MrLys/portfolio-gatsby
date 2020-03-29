@@ -1,0 +1,38 @@
+.tracker {
+    padding: 6px 8px 6px 8px;
+    text-decoration: none;
+}
+.dot {
+    border-radius: 50%;
+    height: 12.5px;
+    width: 12.5px;
+    border-radius: 50%;
+    background-color: #00adb5;
+    display: block;
+    /*padding: 3px 4px 3px 8px;*/
+    overflow:hidden;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    o-transition: all .1s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.dot:hover {
+    width: 20px;
+    height: 20px;
+}
+
+.a {
+    width: 100%;
+    height: 100%;
+}
+.active {
+    width: 24px;
+    height: 24px;
+}
+.inactive {
+    margin-right: -6.25px;    
+}

@@ -1,0 +1,25 @@
+.trackersWrapper {
+    height: 100%;
+    width: 40px;
+    position: fixed;
+    z-index: 1;
+    top: 0; /* hug top */
+    right: 0; /* hug right*/
+    overflow: hidden; /* disable scroll*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cn {
+    padding-left: 4px;
+    position: relative;
+    padding: 6px 8px 6px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+.trackers {
+    padding: 6px 8px 6px 8px;
+    text-decoration: none;
+    display: block;
+}

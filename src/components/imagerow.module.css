@@ -1,0 +1,34 @@
+.cn {
+    display: flex;
+    margin-top: 18px;
+}
+
+.rowText {
+    margin: 0;
+    display: block;
+    color: #393e46; 
+    padding: 12px;
+}
+
+.imageCn {
+    border-radius: 15px;
+    max-width:100%;
+    height: auto;
+    padding-top: 12px;
+}
+
+.aHover a:hover {
+    color: #00adb5; 
+}
+.h2 {
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #707070;
+}
+.p {
+    max-width: 500px;
+    overflow-wrap: break-word;
+    margin-left: 25px;
+    margin-right: 25px;
+}

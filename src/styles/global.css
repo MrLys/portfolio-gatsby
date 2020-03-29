@@ -1,0 +1,46 @@
+:root {
+    /* the threshold at which colors are considered "light." Range: integers from 0 to 100,
+    recommended 50 - 70 */
+    --threshold: 50;
+}
+html {
+    --hue: 216;
+    --sat: 16;
+    --light:16;
+    background-color: hsl(var(--hue), calc(var(--sat) * 1%), calc(var(--light) *1%)); /* #222831;*/
+}
+
+p, h1, h2, i, a {
+    /* Any lightness value below the threshold will result in white, any above will result in black */
+    --switch: calc((var(--light) - var(--threshold)) * -100%);
+    color: hsl(0, 0%, var(--switch));
+}
+p {
+    align-text: center;
+}
+
+#fp-nav ul li:hover a.active span, 
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a span, 
+#fp-nav ul li a span {
+    background: #00adb5;
+    background-color: #00adb5;
+}
+
+
+.wave-container {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+a div:hover {
+    color: #00adb5;
+}
+
+a:hover {
+    color: #00adb5;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
