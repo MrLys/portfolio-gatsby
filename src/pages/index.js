@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby";
-import { DiPython, DiJava, DiJavascript1, DiPostgresql, DiClojure, DiIntellij, DiGit, DiVim } from "react-icons/Di";
+import { DiPython, DiJava, DiJavascript1, DiPostgresql, DiClojure, DiIntellij, DiGit, DiVim } from "react-icons/di";
 import Header from "../components/header.js";
 import Layout from "../components/layout";
 import Main from "../components/main.js";
