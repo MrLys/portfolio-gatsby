@@ -73,7 +73,9 @@ const FullpageWrapper = fullpageProps => (
                     name="Rutta"
                     title="The overengineered habit tracker"
                     tech="Clojure, Gridsome, Postgres, CircleCI"
-                    desc="A functional habit tracker used mainly as a project to learn Clojure"/>
+                    desc="A functional habit tracker used mainly as a project to learn Clojure"
+                    additional="https://www.rutta.no"
+                    additionalText="rutta.no"/>
           </div>
           </Main>
           </div>
